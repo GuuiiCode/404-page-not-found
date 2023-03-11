@@ -86,7 +86,7 @@ footer {
         flex-direction: row;
         gap: 100px;
         position: absolute;
-        top: 40%;
+        top: 33%;
         left: 50%;
         transform: translate(-50%, -50%);
     }

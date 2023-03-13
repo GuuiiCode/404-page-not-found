@@ -62,6 +62,14 @@ button {
     font-size: 14px;
     text-transform: uppercase;
     border: none;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: var(--white);
+    color: var(--black);
+    border: 2px solid var(--black);
 }
 
 footer {

@@ -73,9 +73,7 @@ button:hover {
 }
 
 footer {
-    position: absolute;
-    left: 0;
-    bottom: 24px;
+    margin-bottom: 24px;
     width: 100%;
     text-align: center;
 }
@@ -124,5 +122,11 @@ footer {
         font-size: 24px;
         line-height: 36px;
         letter-spacing: -0.035em;
+    }
+
+    footer {
+        position: absolute;
+        bottom: 0px;
+        text-align: center;
     }
 }
